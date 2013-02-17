@@ -25,7 +25,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 luhn = (number) ->
   number = "#{number}"
   sum = 0
-  for v, k in number
+  for v, k in number.split('')
     v *= (2 - (k % 2))
     v -= 9 if v > 9
     sum += v
