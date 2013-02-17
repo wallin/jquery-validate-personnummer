@@ -34,7 +34,7 @@ luhn = (number) ->
 
 $.validator.addMethod("personnummer", (value, element) ->
   value = "#{value}"
-  p = value.match /(\d{2}){0,1}(\d{2})(\d{2})(\d{2})([\-\+]{0,1})(\d{3})(\d{0,1})/
+  p = value.match /(18|19|20|21){0,1}(\d{2})(\d{2})(\d{2})([\-\+]{0,1})(\d{3})(\d{0,1})/
   return false unless p
 
   [year, month, day, divider, serial, control] = p[2..]
@@ -42,5 +42,4 @@ $.validator.addMethod("personnummer", (value, element) ->
 
   return cd is +control and !!control
 , "Ogiltigt personnummer")
-
 
