@@ -1,0 +1,26 @@
+{
+  "name": "jquery-validator-personnummer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wallin/jquery-validate-personnummer",
+  "authors": [
+    "Sebastian Wallin <sebastian.wallin@gmail.com>"
+  ],
+  "description": "jQuery validator plugin for Swedish SSN",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "personnummer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "jquery.validation": "~1.11.1"
+  }
+}

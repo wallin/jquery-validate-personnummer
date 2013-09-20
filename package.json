@@ -1,0 +1,28 @@
+{
+  "name": "jquery-validator-personnummer",
+  "version": "0.1.0",
+  "description": "jQuery validator plugin for Swedish SSN",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wallin/jquery-validate-personnummer.git"
+  },
+  "author": "Sebastian Wallin <sebastian.wallin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallin/jquery-validate-personnummer/issues"
+  },
+  "devDependencies": {
+    "matchdep": "~0.1.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-karma": "~0.5.0",
+    "karma": "~0.9.4",
+    "karma-coverage": "~0.0.3"
+  }
+}
